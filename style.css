@@ -22,6 +22,7 @@ h1 {
 }
 
 button {
+    font-size: 5rem;
     width: 100px;
     height: 100px;
     background: #A2A2D0;
@@ -39,15 +40,7 @@ button {
     margin-top: 10px;
 }
 
-.plus span {
-    font-size: 50px;
-    color: #480607;
-}
 
-.minus span {
-    font-size: 50px;
-    color: #480607;
-}
 
 .plus, .minus {
     border-radius: 20px;
