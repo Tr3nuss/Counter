@@ -1,7 +1,17 @@
-const plus = document.querySelector('.plus');
-const minus = document.querySelector('.minus');
-const result = document.querySelector('.result');
+const result = document.getElementById('result');
+const minus = document.getElementById('minus');
+const plus = document.getElementById('plus');
 
-plus.addEventListener('click', function(){
-    result.innerText == ++result.innerText;
-})
+let value = 0;
+
+minus.addEventListener('click', () => {
+    value ++;
+    result.innerHTML = value;
+});
+
+plus.addEventListener('click', () => {
+    value --;
+    result.innerHTML = value;
+});
+
+
