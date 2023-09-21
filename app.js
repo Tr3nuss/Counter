@@ -5,7 +5,7 @@ let value = 0;
 const increment = document.getElementById('increment-btn');
 const decrement = document.getElementById('decrement-btn');
 const result = document.getElementById('counter-value');
-const reset = document.querySelector('#reset');
+const resetButton = document.querySelector('#reset');
 
 
 
@@ -35,11 +35,11 @@ decrement.addEventListener('click', function() {
 
 //reset function
 
-reset.addEventListener('click', reset);
+resetButton.addEventListener('click', reset);
 
-function resetToZero() {
+function reset() {
     value = 0;
-    result.innerHTML = value;
+    result.innerHTML = 0;
 }
 
 
